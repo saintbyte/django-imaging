@@ -1,4 +1,4 @@
-from django.conf.urls.defaults import *
+from django.conf.urls import patterns, url, include
 
 urlpatterns = patterns('imaging.views',
     url(r'^iframe_form/$', 'iframe_form', name="imaging_iframe_form"),
