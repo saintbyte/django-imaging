@@ -4,7 +4,7 @@ from django.http import Http404, HttpResponse
 from django.shortcuts import render_to_response
 from django.template.context import RequestContext
 from django.contrib.auth.decorators import login_required, permission_required
-from django.utils import simplejson
+import json
 from django.core.files import File
 
 def iframe_form(request):
